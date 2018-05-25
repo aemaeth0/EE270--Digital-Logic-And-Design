@@ -1,0 +1,19 @@
+|data_reg_nbit
+rst => jk_flop:jkff_stages:0:jkff.rst
+clk => jk_flop:jkff_stages:0:jkff.clk
+en => jk_flop:jkff_stages:0:jkff.en
+d[0] => jk_flop:jkff_stages:0:jkff.j
+d[0] => jk_flop:jkff_stages:0:jkff.k
+q[0] <= jk_flop:jkff_stages:0:jkff.q
+
+
+|data_reg_nbit|jk_flop:\jkff_stages:0:jkff
+rst => qtemp.OUTPUTSELECT
+clk => qtemp.CLK
+en => Mux0.IN8
+j => Mux0.IN9
+k => Mux0.IN10
+q <= qtemp.DB_MAX_OUTPUT_PORT_TYPE
+qbar <= qtemp.DB_MAX_OUTPUT_PORT_TYPE
+
+

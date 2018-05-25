@@ -1,0 +1,283 @@
+$comment
+	File created using the following command:
+		vcd file lab4_task1.msim.vcd -direction
+$end
+$date
+	Fri Mar 02 17:59:25 2018
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module binary_encoder_4to2_vhd_vec_tst $end
+$var wire 1 ! any $end
+$var wire 1 " w [3] $end
+$var wire 1 # w [2] $end
+$var wire 1 $ w [1] $end
+$var wire 1 % w [0] $end
+$var wire 1 & y [1] $end
+$var wire 1 ' y [0] $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var wire 1 + devoe $end
+$var wire 1 , devclrn $end
+$var wire 1 - devpor $end
+$var wire 1 . ww_devoe $end
+$var wire 1 / ww_devclrn $end
+$var wire 1 0 ww_devpor $end
+$var wire 1 1 ww_w [3] $end
+$var wire 1 2 ww_w [2] $end
+$var wire 1 3 ww_w [1] $end
+$var wire 1 4 ww_w [0] $end
+$var wire 1 5 ww_y [1] $end
+$var wire 1 6 ww_y [0] $end
+$var wire 1 7 ww_any $end
+$var wire 1 8 \y[0]~output_o\ $end
+$var wire 1 9 \y[1]~output_o\ $end
+$var wire 1 : \any~output_o\ $end
+$var wire 1 ; \w[3]~input_o\ $end
+$var wire 1 < \w[1]~input_o\ $end
+$var wire 1 = \Equal0~0_combout\ $end
+$var wire 1 > \w[2]~input_o\ $end
+$var wire 1 ? \Mux0~0_combout\ $end
+$var wire 1 @ \w[0]~input_o\ $end
+$var wire 1 A \Equal0~1_combout\ $end
+$var wire 1 B \ALT_INV_Equal0~1_combout\ $end
+$var wire 1 C \ALT_INV_Mux0~0_combout\ $end
+$var wire 1 D \ALT_INV_Equal0~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0(
+1)
+x*
+1+
+1,
+1-
+1.
+1/
+10
+07
+08
+09
+0:
+x;
+x<
+x=
+x>
+x?
+x@
+xA
+xB
+xC
+xD
+0"
+0#
+0$
+0%
+0&
+0'
+01
+02
+03
+04
+05
+06
+$end
+#806
+0;
+0<
+0>
+0@
+#4579
+1A
+0B
+#4632
+1?
+1=
+0D
+0C
+#5601
+x:
+x7
+x!
+#6058
+x8
+x6
+x'
+#8772
+x9
+x5
+x&
+#10222
+0:
+07
+0!
+#10558
+08
+06
+0'
+#13446
+09
+05
+0&
+#62500
+1%
+14
+#63200
+1@
+#66446
+0A
+1B
+#72045
+1:
+17
+1!
+#125000
+0%
+1$
+04
+13
+#125700
+1<
+#125806
+0@
+#128901
+0=
+1D
+#134959
+18
+16
+1'
+#187500
+1%
+14
+#188200
+1@
+#250000
+0%
+0$
+1#
+04
+03
+12
+#250700
+1>
+#250806
+0<
+0@
+#254066
+0?
+1C
+#254279
+1=
+0D
+#260205
+08
+06
+0'
+#262746
+19
+15
+1&
+#312500
+1%
+14
+#313200
+1@
+#375000
+0%
+1$
+04
+13
+#375700
+1<
+#375806
+0@
+#378901
+0=
+1D
+#384959
+18
+16
+1'
+#437500
+1%
+14
+#438200
+1@
+#500000
+0%
+0$
+0#
+1"
+04
+03
+02
+11
+#500700
+1;
+#500806
+0>
+0<
+0@
+#562500
+1%
+14
+#563200
+1@
+#625000
+0%
+1$
+04
+13
+#625700
+1<
+#625806
+0@
+#687500
+1%
+14
+#688200
+1@
+#750000
+0%
+0$
+1#
+04
+03
+12
+#750700
+1>
+#750806
+0<
+0@
+#812500
+1%
+14
+#813200
+1@
+#875000
+0%
+1$
+04
+13
+#875700
+1<
+#875806
+0@
+#937500
+1%
+14
+#938200
+1@
+#1000000

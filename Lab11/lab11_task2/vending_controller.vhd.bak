@@ -1,0 +1,130 @@
+--using triple-segment-style
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity vending_controller is
+	port 
+	(
+		rst	  : in std_logic; --Asynchronous reset
+		clk	  : in std_logic;	--Synchronizing clock signal
+		m 		  : in std_logic_vector(1 downto 0); --Encoded monetary coin sensor data
+		dc      : out std_logic; --Dispense can control
+		dd      : out std_logic; --Dispense dime control
+		dn      : out std_logic; --Dispense nickel control
+		);
+
+end entity;
+
+architecture behavior of vending_controller is
+
+	-- Build an enumerated type for the state machine
+	type StateType is (IDLE, GOT_5C, GOT_10C, GOT_15C, GOT_20C, GOT_25C, RTN_5C, RTN_10C, RTN_15C, RTN_20C);
+	
+	signal presentState	: StateType; --Declare a signal named presentState of type StateType
+	signal nextState		: StateType;
+	
+	--declare syn_encoding attrib. of type string
+	attribute syn_encoding : string;
+	
+	--associate syn_encoding attribute to StateType enum. type
+	--attribute syn_encoding of StateType :
+	--type is "0000000 0000001 0000010 0000100 0001000 0010000 0100000 1000000, safe";
+
+
+begin
+
+  next_state_logic : process (presentState,m(1 downto 0)) is begin
+
+		case presentState is
+		
+			when IDLE => 						 
+			if m(1 downto 0) = "01" then nextState <= GOT_5C;
+				elsif m(1 downto 0) = "10" then nextState <= GOT_10C;
+					elsif m(1 downto 0) = "11" then nextState <= GOT_25C;
+						else nextState <= IDLE; -- goes back to itself when M=00
+							end if;
+						
+			when GOT_5C =>						 -
+			if m(1 downto 0) =  "01" then nextState <= GOT_10C;
+				elsif m(1 downto 0) = "10" then nextState <= GOT_15C;
+				-- elsif m(1 downto 0) = '11" then nextState <= IDLE;
+					-- dc = '1';
+					else nextState <= GOT_5C; -- goes back to itself when M=00
+						end if;
+					
+			when GOT_10C => 					 
+			if m(1 downto 0) =  "01" then nextState <= GOT_15C;
+				elsif m(1 downto 0) = "10" then nextState <= GOT_20C;
+					elsif m(1 downto 0) = "11" then nextState <= RTN_5C; -- and dc = 1 too
+						else nextState <= GOT_10C;
+							end if;
+			
+			when GOT_15C => 					
+			if m(1 downto 0) =  "01" then nextState <= GOT_20C;
+				elsif m(1 downto 0) = "10" then nextState <= GOT_25C;
+					elsif m(1 downto 0) = "11" then nextState <= RTN_10C; -- and dc = 1 too
+						else nextState <= GOT_15C;
+							end if;
+			
+			when GOT_20C =>
+			if m(1 downto 0) = "01" then nextState <= GOT_25C;
+			 --elseif m(1 downto 0) = "10" then nextState <= IDLE;
+				-- dc = '1';
+					elsif m(1 downto 0) = "11" then nextState <= RTN_15C; -- and dc = 1 too
+						else nextState <= GOT_20C;
+							end if;
+			
+			when GOT_25C =>
+			if m(1 downto 0) = "01" then nextState <= IDLE -- and dc = 1
+				elsif m(1 downto 0) = "10" then nextState <= RTN_15C; -- or RTN_5C
+					elsif m(1 downto 0) = "11" then nextState <= RTN_20C; -- dc = 1 too
+						else nextState <= GOT_25C;
+							end if;
+							
+			when RTN_5C => 
+			--if m(1 downto 0) = "XX" then nextState <= IDLE -- goes back to idle after giving back nickel(5) change
+						dc = '1';
+						dn = '1';
+						nextState <= IDLE;
+				
+			when RTN_10C =>
+						dc = '1';
+						dd = '1';
+						nextState <= IDLE;
+						
+			when RTN_15C =>
+						dc = '1';
+						dd = '1';
+						nextState <= RTN_5C; --give out a dime (10) then go to nextState RTN_5C and give back nickel (5) then idle
+							dn = '1';
+								nextState <= IDLE;
+								
+			when RTN_20C =>
+						dc = '1';
+						dd = '1';
+						nextState <= RTN_10C; --give out dime (10) then go to nextState RTN_10C and give back dime (10) again
+							dd = '1'; --give back another dime (10) for a total 20 cents
+								nextState <= IDLE;
+								
+					
+								end case;
+									end process;
+
+	
+	state_reg : process (clk,rst) is begin
+		--if rst = '1' then presentState <= GREEN_NS0;
+		if rst = '1' then presentState <= IDLE;
+			elsif rising_edge(clk) then  presentState <= nextstate;
+				end if;
+	end process state_reg;
+	
+	-- deleted mealy and moore shit here
+					
+	 dc <= "1" when ( (presentState = GOT_5C AND m(1 downto 0) = "11") or (presentState = GOT_10C AND m(1 downto 0) = "11") or (presentState = GOT_15C AND m(1 downto 0) = "11") or (presentState = GOT_20C AND m(1 downto 0) = "11") or (presentState = GOT_25C AND m(1 downto 0) = "11") ) else
+			 "1" when ( (presentState = GOT_20C AND m(1 downto 0) = "11" )
+			 "1" when ( (presentState = GOT_25C AND m(1 downto 0) = "01" )
+			 "1" when ( (presentState = GOT_25C AND m(1 downto 0) = "10" )
+			 else "0";
+
+end architecture behavior;

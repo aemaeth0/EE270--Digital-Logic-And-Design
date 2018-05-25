@@ -1,0 +1,20 @@
+|full_adder
+x => Mux0.IN8
+x => Equal0.IN0
+x => Equal1.IN0
+x => Equal2.IN2
+x => Equal3.IN0
+y => Mux0.IN9
+y => Equal0.IN1
+y => Equal1.IN2
+y => Equal2.IN0
+y => Equal3.IN1
+cin => Mux0.IN10
+cin => Equal0.IN2
+cin => Equal1.IN1
+cin => Equal2.IN1
+cin => Equal3.IN2
+sum <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= process_1.DB_MAX_OUTPUT_PORT_TYPE
+
+

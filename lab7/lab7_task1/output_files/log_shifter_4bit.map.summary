@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Apr 04 20:38:50 2018
+Quartus Prime Version : 17.0.0 Build 595 04/25/2017 SJ Standard Edition
+Revision Name : log_shifter_4bit
+Top-level Entity Name : log_shifter_4bit
+Family : Cyclone IV E
+Total logic elements : 18
+    Total combinational functions : 18
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 13
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

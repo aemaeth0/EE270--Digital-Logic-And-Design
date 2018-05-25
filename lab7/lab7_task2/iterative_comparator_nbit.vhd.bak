@@ -1,0 +1,54 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity iterative_comparator_nbit is
+
+generic( N : positive := 3;
+			RADIX_COMP : boolean := true);
+			
+
+port( x : in std_logic_vector(N-1 downto 0);
+		y : in std_logic_vector(N-1 downto 0);
+		l : out std_logic
+		g : out std_logic);
+		
+end entity iterative_compare_nbit;
+
+architecture structure of iterative_compare_nbit is
+
+signal CinG : std_logic_vector(N downto 0);
+signal CinL : std_logic_vector(N downto 0);
+
+begin
+
+CinG (N) <= '0';
+CinL (N) <= '0';
+l <= CinL(0);
+g <= CinG(0);
+
+	dec0:
+	if RADIX_COMP = false generate
+	
+	unsigned_comparator_generator:
+	
+	for i in N-1 downto 0 generate
+		comp: entity work.compare_2bit_vector(dataflow)
+		port map(a(1) => CinG(i+1), a(0) => x(i), b(1) => CinL(i+1),b(0) => y(i), LG(0)=> CinG(i), LG(1) => CinL(i));
+	end generate unsigned_comparator_generator;
+	
+	else generate
+	
+	msb_comp: entity work.compare_2bit_vector(dataflow)
+		port map(a(1) => CinG(N), a(0) => x(N-1), b(1) => CinL(N), b(0) => y(N-1), LG(0)=> CinL(N-1), LG(1) => CinG(N-1));
+		
+	signed_comparator_generator:
+	for i in N-2 downto 0 generate
+		comp: entity work.compare_2bit_vector(dataflow)
+		port map(a(1) => CinG(i+1), a(0) => x(i), b(1) => CinL(i+1),b(0) => y(i), LG(0)=> CinG(i), LG(1) => CinL(i));
+	end generate signed_comparator_generator;	
+	
+	end generate dec0;
+
+end architecture structure;
+
+	

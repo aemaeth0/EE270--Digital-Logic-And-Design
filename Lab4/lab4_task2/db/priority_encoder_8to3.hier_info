@@ -1,0 +1,32 @@
+|priority_encoder_8to3
+w[0] => any_y.OUTPUTSELECT
+w[0] => any_y.OUTPUTSELECT
+w[0] => any_y.OUTPUTSELECT
+w[0] => any_y.OUTPUTSELECT
+w[1] => any_y.OUTPUTSELECT
+w[1] => any_y.OUTPUTSELECT
+w[1] => any_y.OUTPUTSELECT
+w[1] => any_y.OUTPUTSELECT
+w[2] => any_y.OUTPUTSELECT
+w[2] => any_y.OUTPUTSELECT
+w[2] => any_y.OUTPUTSELECT
+w[2] => any_y.OUTPUTSELECT
+w[3] => any_y.OUTPUTSELECT
+w[3] => any_y.OUTPUTSELECT
+w[3] => any_y.OUTPUTSELECT
+w[3] => any_y.DATAA
+w[4] => any_y.OUTPUTSELECT
+w[4] => any_y.OUTPUTSELECT
+w[4] => any_y.OUTPUTSELECT
+w[5] => any_y.OUTPUTSELECT
+w[5] => any_y.OUTPUTSELECT
+w[5] => any_y.DATAA
+w[6] => any_y.OUTPUTSELECT
+w[6] => any_y.DATAA
+w[7] => any_y.DATAA
+y[0] <= any_y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= any_y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= any_y.DB_MAX_OUTPUT_PORT_TYPE
+any <= any_y.DB_MAX_OUTPUT_PORT_TYPE
+
+

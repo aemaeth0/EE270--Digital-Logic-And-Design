@@ -1,0 +1,9 @@
+|toggle_reg_nbit
+set => ~NO_FANOUT~
+clk => ~NO_FANOUT~
+d[0] => ~NO_FANOUT~
+ld => ~NO_FANOUT~
+t => ~NO_FANOUT~
+q[0] <= comb.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,155 @@
+|ones_counter_8to4
+x[0] => full_adder:FA0.x
+x[1] => full_adder:FA0.y
+x[2] => full_adder:FA1.x
+x[3] => full_adder:FA1.y
+x[4] => full_adder:FA1.cin
+x[5] => full_adder:FA2.x
+x[6] => full_adder:FA2.y
+x[7] => full_adder:FA2.cin
+y[0] << full_adder:FA3.sum
+y[1] << full_adder:FA5.sum
+y[2] << full_adder:FA6.sum
+y[3] << full_adder:FA6.cout
+
+
+|ones_counter_8to4|full_adder:FA0
+x => sum.IN0
+x => Equal0.IN1
+x => Equal1.IN1
+x => Equal2.IN0
+x => Equal3.IN2
+y => sum.IN1
+y => Equal0.IN2
+y => Equal1.IN2
+y => Equal2.IN2
+y => Equal3.IN0
+cin => sum.IN1
+cin => Equal0.IN0
+cin => Equal1.IN0
+cin => Equal2.IN1
+cin => Equal3.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= process_1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ones_counter_8to4|full_adder:FA1
+x => sum.IN0
+x => Equal0.IN1
+x => Equal1.IN1
+x => Equal2.IN0
+x => Equal3.IN2
+y => sum.IN1
+y => Equal0.IN2
+y => Equal1.IN2
+y => Equal2.IN2
+y => Equal3.IN0
+cin => sum.IN1
+cin => Equal0.IN0
+cin => Equal1.IN0
+cin => Equal2.IN1
+cin => Equal3.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= process_1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ones_counter_8to4|full_adder:FA2
+x => sum.IN0
+x => Equal0.IN1
+x => Equal1.IN1
+x => Equal2.IN0
+x => Equal3.IN2
+y => sum.IN1
+y => Equal0.IN2
+y => Equal1.IN2
+y => Equal2.IN2
+y => Equal3.IN0
+cin => sum.IN1
+cin => Equal0.IN0
+cin => Equal1.IN0
+cin => Equal2.IN1
+cin => Equal3.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= process_1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ones_counter_8to4|full_adder:FA3
+x => sum.IN0
+x => Equal0.IN1
+x => Equal1.IN1
+x => Equal2.IN0
+x => Equal3.IN2
+y => sum.IN1
+y => Equal0.IN2
+y => Equal1.IN2
+y => Equal2.IN2
+y => Equal3.IN0
+cin => sum.IN1
+cin => Equal0.IN0
+cin => Equal1.IN0
+cin => Equal2.IN1
+cin => Equal3.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= process_1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ones_counter_8to4|full_adder:FA4
+x => sum.IN0
+x => Equal0.IN1
+x => Equal1.IN1
+x => Equal2.IN0
+x => Equal3.IN2
+y => sum.IN1
+y => Equal0.IN2
+y => Equal1.IN2
+y => Equal2.IN2
+y => Equal3.IN0
+cin => sum.IN1
+cin => Equal0.IN0
+cin => Equal1.IN0
+cin => Equal2.IN1
+cin => Equal3.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= process_1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ones_counter_8to4|full_adder:FA5
+x => sum.IN0
+x => Equal0.IN1
+x => Equal1.IN1
+x => Equal2.IN0
+x => Equal3.IN2
+y => sum.IN1
+y => Equal0.IN2
+y => Equal1.IN2
+y => Equal2.IN2
+y => Equal3.IN0
+cin => sum.IN1
+cin => Equal0.IN0
+cin => Equal1.IN0
+cin => Equal2.IN1
+cin => Equal3.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= process_1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ones_counter_8to4|full_adder:FA6
+x => sum.IN0
+x => Equal0.IN1
+x => Equal1.IN1
+x => Equal2.IN0
+x => Equal3.IN2
+y => sum.IN1
+y => Equal0.IN2
+y => Equal1.IN2
+y => Equal2.IN2
+y => Equal3.IN0
+cin => sum.IN1
+cin => Equal0.IN0
+cin => Equal1.IN0
+cin => Equal2.IN1
+cin => Equal3.IN1
+sum <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cout <= process_1.DB_MAX_OUTPUT_PORT_TYPE
+
+

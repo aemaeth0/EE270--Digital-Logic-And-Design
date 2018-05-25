@@ -1,0 +1,30 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+
+entity binary_encoder_4to2 is	
+	port(w : in std_logic_vector(3 downto 0);
+	     y : out std_logic_vector(1 downto 0);
+		  any : out std_logic
+);
+
+end entity binary_encoder_4to2;
+
+architecture behavior of binary_encoder_4to2 is
+
+
+begin
+
+--concurrent selected signal assignment (CSSA) to model y output of binary encoder 4-to-2
+with w select
+y <= "11"when x"8"|x"9"|x"A"|x"B"|x"C"|x"D"|x"E"|x"F",
+		"10" when x"4"|x"5"|x"6"|x"7",
+		"01" when x"2"|x"3",
+		"00" when others;
+		
+--concurrent conditional signal assignment (CCSA) to model any output of binary encoder 4-to-2
+with w select	
+any <= '0' when "0000",
+		 '1' when others;
+
+end architecture behavior;

@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/XxaemaeThxX/Desktop/lab6/lab6_task1/full_adder.vhd
+source_file = 1, d:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/XxaemaeThxX/Desktop/lab6/lab6_task1/db/full_adder.cbx.xml
+design_name = full_adder
+instance = comp, \sum~output\, sum~output, full_adder, 1
+instance = comp, \cout~output\, cout~output, full_adder, 1
+instance = comp, \x~input\, x~input, full_adder, 1
+instance = comp, \y~input\, y~input, full_adder, 1
+instance = comp, \cin~input\, cin~input, full_adder, 1
+instance = comp, \Mux0~0\, Mux0~0, full_adder, 1
+instance = comp, \process_1~0\, process_1~0, full_adder, 1

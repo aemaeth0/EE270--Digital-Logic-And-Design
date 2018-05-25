@@ -1,0 +1,72 @@
+|binary_decoder_4to16
+w[0] => Mux0.IN19
+w[0] => Mux1.IN19
+w[0] => Mux2.IN19
+w[0] => Mux3.IN19
+w[0] => Mux4.IN19
+w[0] => Mux5.IN19
+w[0] => Mux6.IN19
+w[0] => Mux7.IN19
+w[0] => bin_decoder_3to8:dec0.w[0]
+w[1] => Mux0.IN18
+w[1] => Mux1.IN18
+w[1] => Mux2.IN18
+w[1] => Mux3.IN18
+w[1] => Mux4.IN18
+w[1] => Mux5.IN18
+w[1] => Mux6.IN18
+w[1] => Mux7.IN18
+w[1] => bin_decoder_3to8:dec0.w[1]
+w[2] => Mux0.IN17
+w[2] => Mux1.IN17
+w[2] => Mux2.IN17
+w[2] => Mux3.IN17
+w[2] => Mux4.IN17
+w[2] => Mux5.IN17
+w[2] => Mux6.IN17
+w[2] => Mux7.IN17
+w[2] => bin_decoder_3to8:dec0.w[2]
+w[3] => en_vect[1].IN0
+w[3] => en_vect[0].IN0
+en => en_vect[1].IN1
+en => en_vect[0].IN1
+y[0] << bin_decoder_3to8:dec0.y[0]
+y[1] << bin_decoder_3to8:dec0.y[1]
+y[2] << bin_decoder_3to8:dec0.y[2]
+y[3] << bin_decoder_3to8:dec0.y[3]
+y[4] << bin_decoder_3to8:dec0.y[4]
+y[5] << bin_decoder_3to8:dec0.y[5]
+y[6] << bin_decoder_3to8:dec0.y[6]
+y[7] << bin_decoder_3to8:dec0.y[7]
+y[8] << Mux7.DB_MAX_OUTPUT_PORT_TYPE
+y[9] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
+y[10] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+y[11] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+y[12] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+y[13] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+y[14] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y[15] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_decoder_4to16|bin_decoder_3to8:dec0
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+w[0] => Decoder0.IN2
+w[1] => Decoder0.IN1
+w[2] => Decoder0.IN0
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

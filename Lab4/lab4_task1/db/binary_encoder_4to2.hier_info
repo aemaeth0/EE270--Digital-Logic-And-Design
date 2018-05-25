@@ -1,0 +1,14 @@
+|binary_encoder_4to2
+w[0] => Equal0.IN3
+w[1] => Mux1.IN5
+w[1] => Equal0.IN2
+w[2] => Mux0.IN5
+w[2] => Equal0.IN1
+w[3] => Mux0.IN4
+w[3] => Mux1.IN4
+w[3] => Equal0.IN0
+y[0] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y[1] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+any << Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+

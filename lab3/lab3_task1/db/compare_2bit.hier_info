@@ -1,0 +1,24 @@
+|compare_2bit
+x[0] => Mux0.IN2
+x[0] => less[3].IN0
+x[0] => less[1].IN0
+x[1] => Mux0.IN1
+x[1] => L.DATAB
+x[1] => less[3].IN1
+x[1] => less[1].IN1
+y[0] => great[3].IN0
+y[0] => great[1].IN0
+y[0] => Equal0.IN1
+y[0] => Equal1.IN1
+y[0] => Equal2.IN0
+y[1] => Mux0.IN4
+y[1] => great[3].IN1
+y[1] => great[1].IN1
+y[1] => Equal0.IN0
+y[1] => Equal1.IN0
+y[1] => Equal2.IN1
+L << L.DB_MAX_OUTPUT_PORT_TYPE
+G << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+E << E.DB_MAX_OUTPUT_PORT_TYPE
+
+

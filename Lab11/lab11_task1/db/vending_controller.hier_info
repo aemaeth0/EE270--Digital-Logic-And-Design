@@ -1,0 +1,24 @@
+|vending_controller
+rst => presentState.GIVE_CAN.OUTPUTSELECT
+rst => presentState.RTN_20C.OUTPUTSELECT
+rst => presentState.RTN_15C.OUTPUTSELECT
+rst => presentState.RTN_10C.OUTPUTSELECT
+rst => presentState.RTN_5C.OUTPUTSELECT
+rst => presentState.GOT_25C.OUTPUTSELECT
+rst => presentState.GOT_20C.OUTPUTSELECT
+rst => presentState.GOT_15C.OUTPUTSELECT
+rst => presentState.GOT_10C.OUTPUTSELECT
+rst => presentState.GOT_5C.OUTPUTSELECT
+rst => presentState.IDLE.OUTPUTSELECT
+clk => presentState~1.DATAIN
+m[0] => Equal0.IN1
+m[0] => Equal1.IN1
+m[0] => Equal2.IN0
+m[1] => Equal0.IN0
+m[1] => Equal1.IN0
+m[1] => Equal2.IN1
+dc <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+dd <= WideNor1.DB_MAX_OUTPUT_PORT_TYPE
+dn <= dn.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,14 @@
+
+State Machine - |vending_controller|presentState
+Name presentState.GIVE_CAN presentState.RTN_20C presentState.RTN_15C presentState.RTN_10C presentState.RTN_5C presentState.GOT_25C presentState.GOT_20C presentState.GOT_15C presentState.GOT_10C presentState.GOT_5C presentState.IDLE 
+presentState.IDLE 0 0 0 0 0 0 0 0 0 0 0 
+presentState.GOT_5C 0 0 0 0 0 0 0 0 0 1 1 
+presentState.GOT_10C 0 0 0 0 0 0 0 0 1 0 1 
+presentState.GOT_15C 0 0 0 0 0 0 0 1 0 0 1 
+presentState.GOT_20C 0 0 0 0 0 0 1 0 0 0 1 
+presentState.GOT_25C 0 0 0 0 0 1 0 0 0 0 1 
+presentState.RTN_5C 0 0 0 0 1 0 0 0 0 0 1 
+presentState.RTN_10C 0 0 0 1 0 0 0 0 0 0 1 
+presentState.RTN_15C 0 0 1 0 0 0 0 0 0 0 1 
+presentState.RTN_20C 0 1 0 0 0 0 0 0 0 0 1 
+presentState.GIVE_CAN 1 0 0 0 0 0 0 0 0 0 1 

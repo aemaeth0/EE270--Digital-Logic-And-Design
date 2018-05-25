@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/XxaemaeThxX/Desktop/Lab2/task1/simulation/qsim
+Ehard_block
+Z1 w1518403802
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+R0
+Z8 8hex_to_7seg_decoder.vho
+Z9 Fhex_to_7seg_decoder.vho
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1518403803
+!i10b 1
+Z12 !s108 1518403803.000000
+Z13 !s90 -work|work|hex_to_7seg_decoder.vho|
+Z14 !s107 hex_to_7seg_decoder.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ehex_to_7seg_decoder
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L77
+VP=nznhJUWPgRP>ek@7Z070
+!s100 E1LJY:FhVn<g0ID2h8mXZ3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 19 hex_to_7seg_decoder 0 22 P=nznhJUWPgRP>ek@7Z070
+l147
+L100
+V<OPRF:mH84C=i81Tk2E0A0
+!s100 6i6K58^I>>Y@Q^67PaJ@e0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ehex_to_7seg_decoder_vhd_vec_tst
+Z17 w1518403801
+R5
+R6
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L31
+VQez=;EW`Y<dlimo]A9i<F3
+!s100 0b3f`P?RZM8C[g1c6=lU81
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Waveform.vwf.vht|
+Z21 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Ahex_to_7seg_decoder_arch
+R5
+R6
+Z22 DEx4 work 31 hex_to_7seg_decoder_vhd_vec_tst 0 22 Qez=;EW`Y<dlimo]A9i<F3
+l46
+L33
+ViJNPDKzdaJGZDSdH2W6OK2
+!s100 PZX:2OS;O9[hliG:Kj_be2
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16

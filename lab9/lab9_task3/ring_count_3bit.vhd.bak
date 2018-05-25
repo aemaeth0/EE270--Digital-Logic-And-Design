@@ -1,0 +1,32 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity ring_count_3bit_sys is
+	port 
+	(
+		clk		: in std_logic;
+		--clk_1Hz	: in std_logic;
+		en			: in std_logic;
+		rst      : in std_logic;
+		Q			: out std_logic_VECTOR(2 downto 0)
+	);
+
+end entity;
+
+architecture structure of ring_count_3bit_sys is
+
+--constant named SIZE of type positive and initialize it to the value 3
+
+	constant size : positive := 3;
+	signal clk_1Hz : std_logic;
+	
+
+begin
+	
+		ring3 : entity work.ring_count_nbit (behavior) GENERIC MAP(N => size)
+	   PORT MAP(RST => RST,CLK => clk_1Hz,EN=>en, Q => Q);
+
+	   clk_div: entity work.clock_divider(behavior)
+		PORT MAP (RST,CLK,clk_1Hz);
+		
+end architecture structure;

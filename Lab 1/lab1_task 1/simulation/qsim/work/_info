@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/XxaemaeThxX/Desktop/lab1_task 1/simulation/qsim
+Ecompare_2bit_scalar
+Z1 w1518015458
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+R0
+Z8 8compare_2bit_scalar.vho
+Z9 Fcompare_2bit_scalar.vho
+l0
+L77
+VEE@[LkA[Q[AbPFDodS_^=2
+!s100 dN]4@hRoGDmQUcXMHJYoU3
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1518015459
+!i10b 1
+Z12 !s108 1518015459.000000
+Z13 !s90 -work|work|compare_2bit_scalar.vho|
+Z14 !s107 compare_2bit_scalar.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 19 compare_2bit_scalar 0 22 EE@[LkA[Q[AbPFDodS_^=2
+l129
+L97
+VQYZkOB9l^Jd>HDe>KeQdi0
+!s100 H79<NS8H]0?j<RUIWULD42
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ecompare_2bit_scalar_vhd_vec_tst
+R1
+R5
+R6
+R0
+Z17 8Waveform.vwf.vht
+Z18 FWaveform.vwf.vht
+l0
+L31
+VCSb8MIe5SgGjlC?a]=PAH1
+!s100 admnJ;:[`l7@kfh]SO_[W3
+R10
+32
+R11
+!i10b 1
+R12
+Z19 !s90 -work|work|Waveform.vwf.vht|
+Z20 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Acompare_2bit_scalar_arch
+R5
+R6
+Z21 DEx4 work 31 compare_2bit_scalar_vhd_vec_tst 0 22 CSb8MIe5SgGjlC?a]=PAH1
+l52
+L33
+V>V6RYiUJogBkm1bmGN;M]2
+!s100 VL4DoQPi^P?V>QPabPg`U0
+R10
+32
+R11
+!i10b 1
+R12
+R19
+R20
+!i113 1
+R15
+R16
+Ehard_block
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

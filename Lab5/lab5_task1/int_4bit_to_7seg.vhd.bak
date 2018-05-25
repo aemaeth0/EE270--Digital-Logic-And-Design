@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic.all;
+
+entity int_4bit_to_7seg is
+port(
+
+
+);
+
+
+end entity int_4bit_to_7seg;
+
+
+architecture behavior of int_4bit_to_7seg is
+
+
+
+
+begin
+
+end architecture behavior;

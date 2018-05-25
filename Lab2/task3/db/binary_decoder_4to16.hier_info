@@ -1,0 +1,49 @@
+|binary_decoder_4to16
+w[0] => bin_decoder_3to8:dec1.w[0]
+w[1] => bin_decoder_3to8:dec1.w[1]
+w[2] => bin_decoder_3to8:dec1.w[2]
+w[3] => Equal0.IN1
+w[3] => Equal1.IN0
+en => bin_decoder_3to8:dec1.en
+en => Equal0.IN0
+en => Equal1.IN1
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[8] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[9] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[10] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[11] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[12] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[13] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[14] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[15] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|binary_decoder_4to16|bin_decoder_3to8:dec1
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+w[0] => Decoder0.IN2
+w[1] => Decoder0.IN1
+w[2] => Decoder0.IN0
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

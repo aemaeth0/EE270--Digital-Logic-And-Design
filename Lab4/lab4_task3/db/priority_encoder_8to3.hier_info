@@ -1,0 +1,55 @@
+|priority_encoder_8to3
+w[0] => priority_encoder:pri_enc1.w[0]
+w[1] => priority_encoder:pri_enc1.w[1]
+w[2] => priority_encoder:pri_enc1.w[2]
+w[3] => priority_encoder:pri_enc1.w[3]
+w[4] => priority_encoder:pri_enc0.w[0]
+w[5] => priority_encoder:pri_enc0.w[1]
+w[6] => priority_encoder:pri_enc0.w[2]
+w[7] => priority_encoder:pri_enc0.w[3]
+y[0] <= mux_2to1_nbit:mux0.f[0]
+y[1] <= priority_encoder:pri_enc2.y[0]
+y[2] <= priority_encoder:pri_enc2.y[1]
+any <= priority_encoder:pri_enc2.a
+
+
+|priority_encoder_8to3|priority_encoder:pri_enc0
+w[0] => process_0.IN1
+w[1] => process_0.IN1
+w[2] => process_0.IN0
+w[3] => process_0.IN1
+w[3] => process_0.DATAB
+y[0] <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+a <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|priority_encoder_8to3|priority_encoder:pri_enc1
+w[0] => process_0.IN1
+w[1] => process_0.IN1
+w[2] => process_0.IN0
+w[3] => process_0.IN1
+w[3] => process_0.DATAB
+y[0] <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+a <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|priority_encoder_8to3|priority_encoder:pri_enc2
+w[0] => process_0.IN1
+w[1] => process_0.IN1
+w[2] => process_0.IN0
+w[3] => process_0.IN1
+w[3] => process_0.DATAB
+y[0] <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+a <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|priority_encoder_8to3|mux_2to1_nbit:mux0
+w0[0] => f.DATAB
+w1[0] => f.DATAA
+s => f.OUTPUTSELECT
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+

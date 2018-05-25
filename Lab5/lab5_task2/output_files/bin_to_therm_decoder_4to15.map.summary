@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Mar 09 21:43:09 2018
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : bin_to_therm_decoder_4to15
+Top-level Entity Name : bin_to_therm_decoder_4to15
+Family : Cyclone IV E
+Total logic elements : 14
+    Total combinational functions : 14
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 19
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

@@ -1,0 +1,7 @@
+
+State Machine - |arbitter_controller|presentState
+Name presentState.state_bit_1 presentState.state_bit_0 
+presentState.IDLE 0 0 
+presentState.GNT_DEV0 0 1 
+presentState.GNT_DEV1 1 0 
+presentState.GNT_DEV2 1 1 

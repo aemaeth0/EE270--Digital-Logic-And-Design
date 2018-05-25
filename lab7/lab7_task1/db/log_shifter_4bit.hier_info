@@ -1,0 +1,41 @@
+|log_shifter_4bit
+arith => t.IN0
+lin => r[0].OUTPUTSELECT
+lin => r[1].OUTPUTSELECT
+lin => r[2].OUTPUTSELECT
+right => t.IN1
+right => mux0.IN0
+right => mux0.IN0
+right => mux0.IN0
+right => mux0.IN0
+right => F.OUTPUTSELECT
+right => F.OUTPUTSELECT
+right => F.OUTPUTSELECT
+right => F.OUTPUTSELECT
+right => mux0.IN0
+right => mux0.IN0
+right => mux0.IN0
+right => mux0.IN0
+A[0] => mux0.IN1
+A[0] => mux0.IN1
+A[1] => mux0.IN1
+A[1] => mux0.IN1
+A[2] => mux0.IN1
+A[2] => mux0.IN1
+A[3] => t.IN1
+A[3] => mux0.IN1
+A[3] => mux0.IN1
+cnt[0] => mux1[2].OUTPUTSELECT
+cnt[0] => mux1[0].OUTPUTSELECT
+cnt[0] => mux1[1].OUTPUTSELECT
+cnt[0] => mux1[3].OUTPUTSELECT
+cnt[1] => mux2[0].OUTPUTSELECT
+cnt[1] => mux2[3].OUTPUTSELECT
+cnt[1] => mux2[1].OUTPUTSELECT
+cnt[1] => mux2[2].OUTPUTSELECT
+F[0] <= F.DB_MAX_OUTPUT_PORT_TYPE
+F[1] <= F.DB_MAX_OUTPUT_PORT_TYPE
+F[2] <= F.DB_MAX_OUTPUT_PORT_TYPE
+F[3] <= F.DB_MAX_OUTPUT_PORT_TYPE
+
+

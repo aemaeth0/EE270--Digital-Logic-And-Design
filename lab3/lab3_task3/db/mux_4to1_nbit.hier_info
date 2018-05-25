@@ -1,0 +1,38 @@
+|mux_4to1_nbit
+w3[0] => f.IN1
+w3[1] => f.IN1
+w3[2] => f.IN1
+w3[3] => f.IN1
+w2[0] => f.IN1
+w2[1] => f.IN1
+w2[2] => f.IN1
+w2[3] => f.IN1
+w1[0] => f.IN1
+w1[1] => f.IN1
+w1[2] => f.IN1
+w1[3] => f.IN1
+w0[0] => f.IN1
+w0[1] => f.IN1
+w0[2] => f.IN1
+w0[3] => f.IN1
+s[0] => binary_decoder:dec0.w[0]
+s[1] => binary_decoder:dec0.w[1]
+f[0] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[1] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[2] <= f.DB_MAX_OUTPUT_PORT_TYPE
+f[3] <= f.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_4to1_nbit|binary_decoder:dec0
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+en => y.DATAB
+w[0] => Decoder0.IN1
+w[1] => Decoder0.IN0
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

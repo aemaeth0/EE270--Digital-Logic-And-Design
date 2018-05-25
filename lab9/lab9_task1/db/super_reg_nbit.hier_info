@@ -1,0 +1,30 @@
+|super_reg_nbit
+rst => qtemp[0].ACLR
+rst => qtemp[1].ACLR
+clk => qtemp[0].CLK
+clk => qtemp[1].CLK
+en => qtemp[1].ENA
+en => qtemp[0].ENA
+load => qtemp.OUTPUTSELECT
+load => qtemp.OUTPUTSELECT
+op[0] => Mux0.IN6
+op[0] => Mux1.IN6
+op[0] => Equal0.IN2
+op[0] => Equal2.IN0
+op[1] => Mux0.IN5
+op[1] => Mux1.IN5
+op[1] => Equal0.IN1
+op[1] => Equal2.IN2
+op[2] => Mux0.IN4
+op[2] => Mux1.IN4
+op[2] => Equal0.IN0
+op[2] => Equal2.IN1
+D[0] => qtemp.DATAB
+D[1] => qtemp.DATAB
+Q[0] <= qtemp[0].DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= qtemp[1].DB_MAX_OUTPUT_PORT_TYPE
+SLout <= qtemp[1].DB_MAX_OUTPUT_PORT_TYPE
+SRout <= qtemp[0].DB_MAX_OUTPUT_PORT_TYPE
+TC <= TC.DB_MAX_OUTPUT_PORT_TYPE
+
+

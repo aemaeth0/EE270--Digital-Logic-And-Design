@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Mar 23 21:57:18 2018
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : rc_asu_nbit
+Top-level Entity Name : rc_asu_4bit_de2_sys
+Family : Cyclone IV E
+Total logic elements : 113
+    Total combinational functions : 113
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 61
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

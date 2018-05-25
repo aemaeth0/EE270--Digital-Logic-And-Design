@@ -1,0 +1,20 @@
+|range_extender
+arith => y.OUTPUTSELECT
+arith => y.OUTPUTSELECT
+arith => y.OUTPUTSELECT
+dim => ~NO_FANOUT~
+x[0] => y[3].DATAIN
+x[1] => y[4].DATAIN
+x[1] => y.DATAA
+x[1] => y.DATAA
+x[1] => y.DATAA
+y[0] <= <GND>
+y[1] <= <GND>
+y[2] <= <GND>
+y[3] <= x[0].DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= x[1].DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= y.DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

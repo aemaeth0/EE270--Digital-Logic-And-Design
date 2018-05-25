@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/XxaemaeThxX/Desktop/Lab5/lab5_task1/simulation/qsim
+Ehard_block
+Z1 w1520653079
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+R0
+Z8 8int_4bit_to_7seg.vho
+Z9 Fint_4bit_to_7seg.vho
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1520653080
+!i10b 1
+Z12 !s108 1520653079.000000
+Z13 !s90 -work|work|int_4bit_to_7seg.vho|
+Z14 !s107 int_4bit_to_7seg.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eint_4bit_to_7seg
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L77
+V8QKaGFng85Hc_j2ImBW8c1
+!s100 6=XV5kne2CY94oE1bRod]0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 16 int_4bit_to_7seg 0 22 8QKaGFng85Hc_j2ImBW8c1
+l176
+L110
+VEKKKOISPWO<]jbX?]h_Ke0
+!s100 moDC1@6T?meM]5T3<nhdb1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eint_4bit_to_7seg_vhd_vec_tst
+Z17 w1520653078
+R5
+R6
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L31
+VX`iCcieOmS`[][a6ZRACY0
+!s100 al6lZa6?:>:R8TS1IIRCd0
+R10
+32
+R11
+!i10b 1
+Z20 !s108 1520653080.000000
+Z21 !s90 -work|work|Waveform.vwf.vht|
+Z22 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Aint_4bit_to_7seg_arch
+R5
+R6
+Z23 DEx4 work 28 int_4bit_to_7seg_vhd_vec_tst 0 22 X`iCcieOmS`[][a6ZRACY0
+l50
+L33
+V@aHWaC6CU5oEEW8Al?6Q82
+!s100 G;G4m?g1TTGR<a[d=amIn3
+R10
+32
+R11
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R15
+R16

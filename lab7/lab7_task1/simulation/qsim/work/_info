@@ -1,0 +1,96 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/apizano/Desktop/lab7/lab7_task1/simulation/qsim
+Elog_shifter_4bit
+Z1 w1522893607
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 e`^h93R^CdmMEVe0e1VU_3
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Q;lLU[K?fTJPSa^YaZf>B3
+R0
+Z8 8log_shifter_4bit.vho
+Z9 Flog_shifter_4bit.vho
+l0
+L35
+V6XlZNlCJaC@6>6HiXLRjJ3
+!s100 =L;7SYU@lWWV3IAHV]>Yh2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1522893610
+!i10b 1
+Z12 !s108 1522893610.000000
+Z13 !s90 -work|work|log_shifter_4bit.vho|
+Z14 !s107 log_shifter_4bit.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 16 log_shifter_4bit 0 22 6XlZNlCJaC@6>6HiXLRjJ3
+l94
+L46
+V@H2nhCbR4F@H@^z=deHFE1
+!s100 z4aOH`PZOQK0_UGm_IbF=1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Elog_shifter_4bit_vhd_vec_tst
+Z17 w1522893602
+R5
+R6
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L32
+V2bVA_3dWa>EAcLEVADa6d0
+!s100 8MJfdN7ZROhERL?_JVFZC1
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Waveform.vwf.vht|
+Z21 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Alog_shifter_4bit_arch
+R5
+R6
+DEx4 work 28 log_shifter_4bit_vhd_vec_tst 0 22 2bVA_3dWa>EAcLEVADa6d0
+l53
+L34
+V19Kl3NN>7bl3JL8c^Y:iF1
+!s100 eUD[ahk^CC@PDe@BM7TNk3
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16

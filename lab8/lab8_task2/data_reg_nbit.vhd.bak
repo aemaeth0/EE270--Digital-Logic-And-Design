@@ -1,0 +1,27 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity data_reg_nbit is
+
+	generic(N : positive := 1 );
+	port 
+	(
+		clk	: in std_logic; 
+		rst	: in std_logic; 
+		EN	   : in std_logic; 
+		D	   : in std_logic_vector(N downto 0); 
+		Q	   : OUT std_logic_vector(N downto 0));
+
+end entity;
+
+architecture structure of data_reg_nbit is
+begin
+	
+  JKFF_stages: for k in 0 to N-1 generate 
+  
+	  JKFF: entity work.jk_flop(behavior)
+		port map(clk=>clk, rst=>rst, EN=>EN, J=>D(k), K=> not(D(k)), Q=> Q(k), Qbar=>open);
+	
+	end generate JKFF_stages;
+	
+end architecture STRUCTURE;

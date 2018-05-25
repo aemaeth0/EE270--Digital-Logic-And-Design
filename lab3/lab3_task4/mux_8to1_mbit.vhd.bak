@@ -1,0 +1,15 @@
+use ieee.std.all;
+
+entity mux_8to1_mbit is
+generic(M : positive :- 2)
+	port(w0 : in std_logic_vector(M-1 downto 0)
+		  w1 : in std_logic_vector(M-1 downto 0)
+		  w2 : in std_logic_vector(M-1 downto 0)
+		  w3 : in std_logic_vector(M-1 downto 0)
+		  w4 : in std_logic_vector(M-1 downto 0)
+		  w5 : in std_logic_vector(M-1 downto 0)
+		  w6 : in std_logic_vector(M-1 downto 0)
+		  w7 : in std_logic_vector(M-1 downto 0)
+		  s : out std_logic_vector(2 downto 0)
+		  f : out std_logic_vector(M-1 downto 0));
+end entity mux_8to1_mbit;

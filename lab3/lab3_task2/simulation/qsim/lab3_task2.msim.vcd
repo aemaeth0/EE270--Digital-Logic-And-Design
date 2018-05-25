@@ -1,0 +1,263 @@
+$comment
+	File created using the following command:
+		vcd file lab3_task2.msim.vcd -direction
+$end
+$date
+	Sun Feb 18 03:59:17 2018
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module compare_2bit_vhd_vec_tst $end
+$var wire 1 ! LEG [2] $end
+$var wire 1 " LEG [1] $end
+$var wire 1 # LEG [0] $end
+$var wire 1 $ x [1] $end
+$var wire 1 % x [0] $end
+$var wire 1 & y [1] $end
+$var wire 1 ' y [0] $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var wire 1 + devoe $end
+$var wire 1 , devclrn $end
+$var wire 1 - devpor $end
+$var wire 1 . ww_devoe $end
+$var wire 1 / ww_devclrn $end
+$var wire 1 0 ww_devpor $end
+$var wire 1 1 ww_x [1] $end
+$var wire 1 2 ww_x [0] $end
+$var wire 1 3 ww_y [1] $end
+$var wire 1 4 ww_y [0] $end
+$var wire 1 5 ww_LEG [2] $end
+$var wire 1 6 ww_LEG [1] $end
+$var wire 1 7 ww_LEG [0] $end
+$var wire 1 8 \LEG[0]~output_o\ $end
+$var wire 1 9 \LEG[1]~output_o\ $end
+$var wire 1 : \LEG[2]~output_o\ $end
+$var wire 1 ; \y[0]~input_o\ $end
+$var wire 1 < \y[1]~input_o\ $end
+$var wire 1 = \x[0]~input_o\ $end
+$var wire 1 > \x[1]~input_o\ $end
+$var wire 1 ? \Mux1~0_combout\ $end
+$var wire 1 @ \Mux0~0_combout\ $end
+$var wire 1 A \LEG~0_combout\ $end
+$var wire 1 B \ALT_INV_Mux0~0_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0(
+1)
+x*
+1+
+1,
+1-
+1.
+1/
+10
+08
+19
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+1B
+0$
+0%
+0&
+0'
+01
+02
+03
+04
+05
+16
+07
+0!
+1"
+0#
+$end
+#62500
+1'
+14
+1;
+1@
+1A
+0B
+1:
+09
+15
+06
+1!
+0"
+#125000
+0'
+1&
+04
+13
+1<
+0;
+#187500
+1'
+14
+1;
+#250000
+0'
+0&
+1%
+04
+03
+12
+1=
+0<
+0;
+1?
+0A
+0:
+18
+05
+17
+1#
+0!
+#312500
+1'
+14
+1;
+0?
+0@
+1B
+08
+19
+07
+16
+0#
+1"
+#375000
+0'
+1&
+04
+13
+1<
+0;
+1@
+1A
+0B
+1:
+09
+15
+06
+1!
+0"
+#437500
+1'
+14
+1;
+#500000
+0'
+0&
+0%
+1$
+04
+03
+02
+11
+1>
+0=
+0<
+0;
+1?
+0A
+0:
+18
+05
+17
+1#
+0!
+#562500
+1'
+14
+1;
+#625000
+0'
+1&
+04
+13
+1<
+0;
+0?
+0@
+1B
+08
+19
+07
+16
+0#
+1"
+#687500
+1'
+14
+1;
+1@
+1A
+0B
+1:
+09
+15
+06
+1!
+0"
+#750000
+0'
+0&
+1%
+04
+03
+12
+1=
+0<
+0;
+1?
+0A
+0:
+18
+05
+17
+1#
+0!
+#812500
+1'
+14
+1;
+#875000
+0'
+1&
+04
+13
+1<
+0;
+#937500
+1'
+14
+1;
+0?
+0@
+1B
+08
+19
+07
+16
+0#
+1"
+#1000000

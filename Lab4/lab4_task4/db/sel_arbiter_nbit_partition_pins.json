@@ -1,0 +1,49 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "gnt[0]",
+					"strict" : false
+				},
+				{
+					"name" : "gnt[1]",
+					"strict" : false
+				},
+				{
+					"name" : "gnt[2]",
+					"strict" : false
+				},
+				{
+					"name" : "gnt[3]",
+					"strict" : false
+				},
+				{
+					"name" : "zero",
+					"strict" : false
+				},
+				{
+					"name" : "req[0]",
+					"strict" : false
+				},
+				{
+					"name" : "msb",
+					"strict" : false
+				},
+				{
+					"name" : "req[3]",
+					"strict" : false
+				},
+				{
+					"name" : "req[2]",
+					"strict" : false
+				},
+				{
+					"name" : "req[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
