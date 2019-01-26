@@ -1,5 +1,5 @@
 Fitter report for hex_to_7seg_decoder
-Sun Feb 11 20:49:15 2018
+Mon Jan 21 01:12:53 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Sun Feb 11 20:49:15 2018       ;
+; Fitter Status                      ; Successful - Mon Jan 21 01:12:53 2019       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; hex_to_7seg_decoder                         ;
 ; Top-level Entity Name              ; hex_to_7seg_decoder                         ;
@@ -155,7 +155,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-6         ;   0.0%      ;
+;     Processors 2-6         ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -197,7 +197,7 @@ refer to the applicable agreement for further details.
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/XxaemaeThxX/Desktop/Lab2/task1/output_files/hex_to_7seg_decoder.pin.
+The pin-out file can be found in C:/Users/XxaemaeThxX/Desktop/PURDUE/Semester IV - Spring 2018/ECE270 Intro to Digital Systems/GitHub/EE270--Digital-Logic-And-Design/Lab 2/task1/output_files/hex_to_7seg_decoder.pin.
 
 
 +----------------------------------------------------------------------+
@@ -1530,23 +1530,23 @@ Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were
     Info (170201): Optimizations that may affect the design's routability were skipped
     Info (170200): Optimizations that may affect the design's timing were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:00
-Info (11888): Total time spent on timing analysis during the Fitter is 0.02 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.03 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
-Info (144001): Generated suppressed messages file C:/Users/XxaemaeThxX/Desktop/Lab2/task1/output_files/hex_to_7seg_decoder.fit.smsg
+Info (144001): Generated suppressed messages file C:/Users/XxaemaeThxX/Desktop/PURDUE/Semester IV - Spring 2018/ECE270 Intro to Digital Systems/GitHub/EE270--Digital-Logic-And-Design/Lab 2/task1/output_files/hex_to_7seg_decoder.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 1737 megabytes
-    Info: Processing ended: Sun Feb 11 20:49:15 2018
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:12
+    Info: Peak virtual memory: 5863 megabytes
+    Info: Processing ended: Mon Jan 21 01:12:54 2019
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:14
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/XxaemaeThxX/Desktop/Lab2/task1/output_files/hex_to_7seg_decoder.fit.smsg.
+The suppressed messages can be found in C:/Users/XxaemaeThxX/Desktop/PURDUE/Semester IV - Spring 2018/ECE270 Intro to Digital Systems/GitHub/EE270--Digital-Logic-And-Design/Lab 2/task1/output_files/hex_to_7seg_decoder.fit.smsg.
 
 

@@ -1,5 +1,5 @@
 Assembler report for hex_to_7seg_decoder
-Sun Feb 11 20:49:19 2018
+Mon Jan 21 01:12:58 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/XxaemaeThxX/Desktop/Lab2/task1/output_files/hex_to_7seg_decoder.sof
+  5. Assembler Device Options: C:/Users/XxaemaeThxX/Desktop/PURDUE/Semester IV - Spring 2018/ECE270 Intro to Digital Systems/GitHub/EE270--Digital-Logic-And-Design/Lab 2/task1/output_files/hex_to_7seg_decoder.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sun Feb 11 20:49:19 2018 ;
+; Assembler Status      ; Successful - Mon Jan 21 01:12:58 2019 ;
 ; Revision Name         ; hex_to_7seg_decoder                   ;
 ; Top-level Entity Name ; hex_to_7seg_decoder                   ;
 ; Family                ; Cyclone IV E                          ;
@@ -52,23 +52,23 @@ refer to the applicable agreement for further details.
 +--------+---------+---------------+
 
 
-+------------------------------------------------------------------------------+
-; Assembler Generated Files                                                    ;
-+------------------------------------------------------------------------------+
-; File Name                                                                    ;
-+------------------------------------------------------------------------------+
-; C:/Users/XxaemaeThxX/Desktop/Lab2/task1/output_files/hex_to_7seg_decoder.sof ;
-+------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                                                                                                             ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                                                                                             ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/XxaemaeThxX/Desktop/PURDUE/Semester IV - Spring 2018/ECE270 Intro to Digital Systems/GitHub/EE270--Digital-Logic-And-Design/Lab 2/task1/output_files/hex_to_7seg_decoder.sof ;
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/XxaemaeThxX/Desktop/Lab2/task1/output_files/hex_to_7seg_decoder.sof ;
-+----------------+---------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                               ;
-+----------------+---------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x0056517A                                                                            ;
-; Checksum       ; 0x0056517A                                                                            ;
-+----------------+---------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/XxaemaeThxX/Desktop/PURDUE/Semester IV - Spring 2018/ECE270 Intro to Digital Systems/GitHub/EE270--Digital-Logic-And-Design/Lab 2/task1/output_files/hex_to_7seg_decoder.sof ;
++----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                                                                                                        ;
++----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x0056524C                                                                                                                                                                                     ;
+; Checksum       ; 0x0056524C                                                                                                                                                                                     ;
++----------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -77,13 +77,13 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sun Feb 11 20:49:16 2018
+    Info: Processing started: Mon Jan 21 01:12:55 2019
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off lab2_task1 -c hex_to_7seg_decoder
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 604 megabytes
-    Info: Processing ended: Sun Feb 11 20:49:19 2018
+    Info: Peak virtual memory: 4700 megabytes
+    Info: Processing ended: Mon Jan 21 01:12:58 2019
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:03
 

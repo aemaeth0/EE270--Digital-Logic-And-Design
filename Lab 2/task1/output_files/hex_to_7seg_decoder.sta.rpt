@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for hex_to_7seg_decoder
-Sun Feb 11 20:49:21 2018
+Mon Jan 21 01:13:01 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -95,7 +95,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-6         ;   0.1%      ;
+;     Processors 2-6         ;   0.2%      ;
 +----------------------------+-------------+
 
 
@@ -419,7 +419,7 @@ No non-DPA dedicated SERDES Receiver circuitry present in device or used in desi
 Info: *******************************************************************
 Info: Running Quartus Prime TimeQuest Timing Analyzer
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sun Feb 11 20:49:20 2018
+    Info: Processing started: Mon Jan 21 01:12:59 2019
 Info: Command: quartus_sta lab2_task1 -c hex_to_7seg_decoder
 Info: qsta_default_script.tcl version: #3
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -466,9 +466,9 @@ Info (332140): No Minimum Pulse Width paths to report
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 784 megabytes
-    Info: Processing ended: Sun Feb 11 20:49:21 2018
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+    Info: Peak virtual memory: 4883 megabytes
+    Info: Processing ended: Mon Jan 21 01:13:01 2019
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 

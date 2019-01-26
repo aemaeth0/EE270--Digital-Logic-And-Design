@@ -1,5 +1,5 @@
 Analysis & Synthesis report for hex_to_7seg_decoder
-Sun Feb 11 20:49:06 2018
+Mon Jan 21 01:12:44 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Feb 11 20:49:06 2018       ;
+; Analysis & Synthesis Status        ; Successful - Mon Jan 21 01:12:44 2019       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; hex_to_7seg_decoder                         ;
 ; Top-level Entity Name              ; hex_to_7seg_decoder                         ;
@@ -163,13 +163,13 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                           ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                    ; Library ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------+---------+
-; hex_to_7seg_decoder.vhd          ; yes             ; User VHDL File  ; C:/Users/XxaemaeThxX/Desktop/Lab2/task1/hex_to_7seg_decoder.vhd ;         ;
-+----------------------------------+-----------------+-----------------+-----------------------------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                    ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                                                             ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; hex_to_7seg_decoder.vhd          ; yes             ; User VHDL File  ; C:/Users/XxaemaeThxX/Desktop/PURDUE/Semester IV - Spring 2018/ECE270 Intro to Digital Systems/GitHub/EE270--Digital-Logic-And-Design/Lab 2/task1/hex_to_7seg_decoder.vhd ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------+
@@ -260,12 +260,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
-    Info: Processing started: Sun Feb 11 20:48:57 2018
+    Info: Processing started: Mon Jan 21 01:12:35 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab2_task1 -c hex_to_7seg_decoder
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file hex_to_7seg_decoder.vhd
-    Info (12022): Found design unit 1: hex_to_7seg_decoder-behavior File: C:/Users/XxaemaeThxX/Desktop/Lab2/task1/hex_to_7seg_decoder.vhd Line: 18
-    Info (12023): Found entity 1: hex_to_7seg_decoder File: C:/Users/XxaemaeThxX/Desktop/Lab2/task1/hex_to_7seg_decoder.vhd Line: 7
+    Info (12022): Found design unit 1: hex_to_7seg_decoder-behavior File: C:/Users/XxaemaeThxX/Desktop/PURDUE/Semester IV - Spring 2018/ECE270 Intro to Digital Systems/GitHub/EE270--Digital-Logic-And-Design/Lab 2/task1/hex_to_7seg_decoder.vhd Line: 18
+    Info (12023): Found entity 1: hex_to_7seg_decoder File: C:/Users/XxaemaeThxX/Desktop/PURDUE/Semester IV - Spring 2018/ECE270 Intro to Digital Systems/GitHub/EE270--Digital-Logic-And-Design/Lab 2/task1/hex_to_7seg_decoder.vhd Line: 7
 Info (12127): Elaborating entity "hex_to_7seg_decoder" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -275,9 +275,9 @@ Info (21057): Implemented 26 device resources after synthesis - the final resour
     Info (21059): Implemented 7 output pins
     Info (21061): Implemented 14 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 713 megabytes
-    Info: Processing ended: Sun Feb 11 20:49:06 2018
+    Info: Peak virtual memory: 4814 megabytes
+    Info: Processing ended: Mon Jan 21 01:12:44 2019
     Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Total CPU time (on all processors): 00:00:19
 
 

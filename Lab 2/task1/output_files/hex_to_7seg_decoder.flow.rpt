@@ -1,5 +1,5 @@
 Flow report for hex_to_7seg_decoder
-Sun Feb 11 20:50:02 2018
+Mon Jan 21 01:13:01 2019
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sun Feb 11 20:50:02 2018       ;
+; Flow Status                        ; Successful - Mon Jan 21 01:12:58 2019       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; hex_to_7seg_decoder                         ;
 ; Top-level Entity Name              ; hex_to_7seg_decoder                         ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 02/11/2018 20:48:58 ;
+; Start date & time ; 01/21/2019 01:12:35 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; hex_to_7seg_decoder ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 229044592196453.151840373709160        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 229044592196453.154805475524620        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
@@ -96,13 +96,11 @@ refer to the applicable agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:09     ; 1.0                     ; 713 MB              ; 00:00:18                           ;
-; Fitter                    ; 00:00:08     ; 1.0                     ; 1737 MB             ; 00:00:12                           ;
-; Assembler                 ; 00:00:03     ; 1.0                     ; 603 MB              ; 00:00:03                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 784 MB              ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:00     ; 1.0                     ; 556 MB              ; 00:00:00                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 569 MB              ; 00:00:01                           ;
-; Total                     ; 00:00:22     ; --                      ; --                  ; 00:00:35                           ;
+; Analysis & Synthesis      ; 00:00:09     ; 1.0                     ; 4814 MB             ; 00:00:19                           ;
+; Fitter                    ; 00:00:08     ; 1.0                     ; 5863 MB             ; 00:00:14                           ;
+; Assembler                 ; 00:00:03     ; 1.0                     ; 4699 MB             ; 00:00:03                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 4883 MB             ; 00:00:02                           ;
+; Total                     ; 00:00:21     ; --                      ; --                  ; 00:00:38                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -115,8 +113,6 @@ refer to the applicable agreement for further details.
 ; Fitter                    ; DESKTOP-OS08J4I  ; Windows 10 ; 10.0       ; x86_64         ;
 ; Assembler                 ; DESKTOP-OS08J4I  ; Windows 10 ; 10.0       ; x86_64         ;
 ; TimeQuest Timing Analyzer ; DESKTOP-OS08J4I  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-OS08J4I  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer        ; DESKTOP-OS08J4I  ; Windows 10 ; 10.0       ; x86_64         ;
 +---------------------------+------------------+------------+------------+----------------+
 
 
@@ -127,8 +123,6 @@ quartus_map --read_settings_files=on --write_settings_files=off lab2_task1 -c he
 quartus_fit --read_settings_files=off --write_settings_files=off lab2_task1 -c hex_to_7seg_decoder
 quartus_asm --read_settings_files=off --write_settings_files=off lab2_task1 -c hex_to_7seg_decoder
 quartus_sta lab2_task1 -c hex_to_7seg_decoder
-quartus_eda --gen_testbench --tool=modelsim_oem --format=vhdl --write_settings_files=off lab2_task1 -c hex_to_7seg_decoder --vector_source=C:/Users/XxaemaeThxX/Desktop/Lab2/task1/Waveform.vwf --testbench_file=C:/Users/XxaemaeThxX/Desktop/Lab2/task1/simulation/qsim/Waveform.vwf.vht
-quartus_eda --write_settings_files=off --simulation=on --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=vhdl --output_directory=C:/Users/XxaemaeThxX/Desktop/Lab2/task1/simulation/qsim/ lab2_task1 -c hex_to_7seg_decoder
 
 
 
